@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../img/rocket.svg);
+  background-size: contain;
+}
+
+.plushies {
+  display: flex;
+  margin: 0 auto;
+}
+
+.plushy__image {
+  max-width: 100%;
+}
